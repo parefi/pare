@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div className="flex flex-col items-center h-screen">
+    <div className="flex bg-white w-screen p-4 text-xl font-bold">
+      pare.fi
+    </div >
+    <div className="flex flex-col items-center align-middle w-screen h-screen bg-[url('/public/images/pare1.jpg')]">
+      <div className="flex flex-col items-center m-auto">
+        <h1 className="text-4xl font-bold text-white">      
+          Päre on pare!   
+        </h1>
+        <div className="align-center text-white">
+          pare.fi@mail.com
+        </div>
+      </div>
     </div>
-  );
+  </div>
+  )
 }
 
 export default App;
