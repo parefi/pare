@@ -10,7 +10,7 @@ const App = () => {
           Päre on pare!   
         </h1>
         <div className="align-center text-white">
-          pare.fi@mail.com
+          pareonpare@gmail.com
         </div>
       </div>
     </div>
