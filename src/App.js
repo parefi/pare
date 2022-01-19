@@ -6,10 +6,10 @@ const App = () => {
     </div >
     <div className="flex flex-col items-center align-middle w-screen h-screen bg-[url('/public/images/pare1.jpg')]">
       <div className="flex flex-col items-center m-auto">
-        <h1 className="text-4xl font-bold text-white">      
+        <h1 className="text-shadow md:text-7xl text-5xl font-bold text-white">      
           Päre on pare!   
         </h1>
-        <div className="align-center text-white">
+        <div className="text-shadow md:text-2xl text-xl align-center text-white">
           pareonpare@gmail.com
         </div>
       </div>
